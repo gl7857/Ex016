@@ -33,7 +33,6 @@ public class MainActivity2 extends AppCompatActivity {
         }
     }
 
-
     public void clickedBack(View view) {
         finish();
     }
