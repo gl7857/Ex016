@@ -39,5 +39,7 @@ public class MainActivity extends AppCompatActivity {
         si.putExtra("blueScore", blueScore);
         si.putExtra("redScore", redScore);
         startActivity(si);
+        blueScore = 0;
+        redScore = 0;
     }
 }
